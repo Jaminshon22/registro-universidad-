@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de la Universidad</title>
+</head>
+<body>
+	<h1>Registro de la Universidad</h1>
+	<form action="procesar_registro.php" method="POST">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" required><br><br>
+		<label for="apellido">Apellido:</label>
+		<input type="text" id="apellido" name="apellido" required><br><br>
+		<label for="email">Correo electrónico:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		<label for="contraseña">Contraseña:</label>
+		<input type="password" id="contraseña" name="contraseña" required><br><br>
+		<label for="carrera">Carrera:</label>
+		<select id="carrera" name="carrera">
+			<option value="ingenieria">Ingeniería</option>
+			<option value="medicina">Medicina</option>
+			<option value="derecho">Derecho</option>
+			<option value="administracion">Administración</option>
+		</select><br><br>
+		<label for="genero">Género:</label>
+		<input type="radio" id="masculino" name="genero" value="masculino" required>
